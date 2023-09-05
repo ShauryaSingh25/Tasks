@@ -1,0 +1,15 @@
+
+table {
+    background-color: hsl(0, 34%, 73%);
+  width:100%;  
+  border: 1px solid  white;
+  
+}
+th,td{
+    border: 1px solid white  ;
+}
+th{
+    height:70%;
+}
+
+ background-color: #f2f2f2;
