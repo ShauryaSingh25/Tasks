@@ -1,0 +1,107 @@
+<!--  
+    Task 5
+    Shaurya Singh
+	21BCE11004
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        
+    }
+    table,th,td {
+        
+        border: 1px solid black;
+        border-collapse: collapse ;
+    }
+</style>
+<body>
+    <H1 style="color: blueviolet;">Registration Form</H1>
+    <form>
+    
+        <table align="center">
+        <tr>
+            <th>First Name</th>
+            <td> <input type="text" placeholder="First Name" id="First Name"/></td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text" placeholder="Last Name" id="Last Name"/> </td>
+        </tr>
+        <tr>
+            <th>E-Mail</th>
+            <td><input type="email" placeholder="E-Mail" id="E-Mail"/> </td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td><input type="password" placeholder="Password" id="Password"/> </td>
+        </tr>
+        <tr>
+            <th>Re-enter Password</th>
+            <td> <input type="password" placeholder="Re-enter Password" id="Re-enter Password"/></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="radio" id="Male" name="Male" value="Male">
+                <label for="Male">Male</label><br> 
+            <input type="radio" id="Female" name="Female" value="Female">
+                <label for="Female">Female</label><br></td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td><input type="number" placeholder="Age" id="Age"/> </td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td><input type="number" placeholder="Phone Number" id="Phone Number"/> </td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><input type="text" placeholder="Address" id="Address"/> </td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td><input type="text" placeholder="State" id="State"/> </td>
+        </tr>
+        <tr>
+        <th>Country</th>
+         
+        <th><select name="Country" id="Country">
+            <option value="Choose">Choose your Country</option>
+            <option value="India">India</option>
+            <option value="America">America</option>
+
+        </select>
+        </th>
+        </tr>
+        <tr>
+            <th>Languages</th>
+            <td><input type="radio" id="English" name="English" value="English">
+                <label for="English">English</label> 
+            <input type="radio" id="Kannada" name="Kannada" value="Kannada">
+                <label for="Kannada">Kannada</label>
+            <input type="radio" id="Hindi" name="Hindi" value="Hindi">
+                <label for="Hindi">Hindi</label>
+            <input type="radio" id="Telugu" name="Telugu" value="Telugu">
+                <label for="Telugu">Telugu</label></td>
+        </tr>
+        <tr> 
+            <td colspan="2"><input type="checkbox" id="declaration" name="declaration" value="declaration">
+                <label for="declaration"> Hereby I declare all the given details are true</label></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">Log in to <a href="#">Ethnus</a> website</td>
+        </tr>
+    </table>
+    <center><input type="submit" value="Submit"></center
+    </form>
+
+    
+</body>
+</html>
